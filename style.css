@@ -1,0 +1,64 @@
+/* Style the header with some padding */
+.header {
+    border-bottom-style: solid;
+    border-bottom-color: #aeb1b7;
+    height: 95px;
+    
+    
+}
+
+/* Style the name in the header */
+.header h1{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    background-color: #6fbab7;
+    color: white;
+    padding: 20px;
+    
+
+}
+
+/* Style the header items */
+.header ul {
+    position: absolute;
+    right: 5px;
+    list-style-type: none;
+    padding-top: 20px;
+    height: 20px;
+    
+
+}
+
+.header li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-right: solid lightgray;
+  
+}
+
+#headerContact {
+    border-right-style: none;
+}
+
+
+
+/* Style the header links */
+.header a {
+    color: #aeb1b7;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Change the background color on mouse hover */
+.header a:hover {
+    background-color: #edbd44;
+}
+
+/* Style the current link */
+.header a:active {
+    background-color: #6fba;
+    color: white;
+}
