@@ -23,6 +23,7 @@
 .header ul {
     position: absolute;
     right: 5px;
+    top: 5px;
     list-style-type: none;
     padding-top: 20px;
     height: 20px;
