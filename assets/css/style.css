@@ -103,6 +103,17 @@ div.menu {
 }
 
 /* Style the bio photo */
-.content img {
+.float-bioPhoto {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 10.5px;
    
+}
+
+
+/* Style the paragraphs around the bio photo */
+.introduction {
+    line-height: 180%
+    
 }
