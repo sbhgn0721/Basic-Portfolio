@@ -191,7 +191,6 @@ input[type=submit]:hover {
 .row {
     display: flex;
     justify-content: space-between;
-    align-content: space-betweem;
     width: 60%;
 
 }
