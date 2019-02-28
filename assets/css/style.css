@@ -19,33 +19,31 @@ div.header {
     border-bottom-color: #cccccc;
     height: 95px;
     width: 100%;
-    margin-left: -8px;
-    
-    
+}
+
+/* Set the position anf width of header-with-width */
+
+.header-with-width {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Style the name in the header */
-div.myLogo {
+div.my-logo {
     float: left;
     background-color: #4aaaa5;
     color: white;
     font-size: 150%;
     font-weight: bold;
-    padding: 10px 20px 10px 20px;
-    margin-left: 174px;
-   
-    
-
+    padding: 18px 20px 10px 20px;
 }
 
 /* Style the header menu */
 div.menu {
     float: right;
     list-style-type: none;
-    padding: 20px 153px 20px 20px;
-    
-    
-
+    padding: 25px 0px 20px 20px; 
 }
 
 /* Style the items in the header menu */
@@ -57,7 +55,7 @@ div.menu {
   
 }
 
-#headerContact {
+#header_contact {
     border-right-style: none;
 }
 
@@ -82,9 +80,11 @@ div.menu {
     color: white;
 }
 
+
 /* Style the layout of main content */
-.mainContent {
+.main-content {
     width: 960px;
+    box-sizing: border-box; 
     background-color: #ffffff;
     border-style: solid;
     border-color: #dddddd;
@@ -134,7 +134,7 @@ div.menu {
 /* The CSS rules about index page */
 
 /* Style the bio photo */
-.float-bioPhoto {
+.float-bio-photo {
     float: left;
     margin-right: 15px;
     margin-bottom: 5px;
@@ -173,6 +173,12 @@ input[type=text], textarea {
     margin-bottom: 16px;
    
     
+}
+
+/* Set the height and font family for textarea */
+#message {
+    height: 175px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* Style the submit buttom  */
@@ -222,7 +228,7 @@ h3 {
     font-size: 80%;
     padding: 10px 0px;
     position: relative;
-    margin-top: -45px;
+    margin-top: -50px;
 } 
 
 /* Style the image on mouse hover */
@@ -231,7 +237,8 @@ h3 {
 
 }
 
-#mainContent_portofolio {
+/* Add scroll button for portofolio container */
+#main-content_portofolio {
     height: 500px;
     overflow: auto;
 
